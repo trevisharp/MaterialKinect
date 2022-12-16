@@ -24,9 +24,6 @@ form.Load += (o, e) =>
 {
     bmp = Image.FromFile("img.jpg") as Bitmap;
     pb.Image = bmp;
-
-    // pb.Refresh();
-    tm.Start();
 };
 
 form.KeyDown += (o, e) =>
